@@ -39,8 +39,12 @@ export const ProjectArea = styled.div`
 export const ShowCarrousel = styled.div`
     display: flex;
     width: 75%;
-    overflow-x: hidden;
+    overflow-y: hidden;
     scroll-behavior: smooth;
+
+    &::-webkit-scrollbar{
+    display: none;
+    }
 
     @media (max-width: 500px){
         width: 90%;
@@ -49,7 +53,7 @@ export const ShowCarrousel = styled.div`
 `
 
 export const DivImg = styled.div`
-    margin: 10px;
+    margin-right: 20px;
     border-radius: 7px;
     min-width: 320px;
     height: 246px;
@@ -68,16 +72,29 @@ export const DivImg = styled.div`
     }
 
     @media (max-width: 500px){
-        margin: none;
-        min-width: 300px;
-        height: 226px;
+        min-width: 86vw;
+        height: 300px;
         background-size: cover;
     }
 
-    @media (max-width: 360px){
-        margin: none;
-        min-width: 270px;
-        height: 190px;
+    @media (max-width: 400px){
+        margin-right: 8px;
+        min-width: 83vw;
+        height: 250px;
+        background-size: cover;
+    }
+
+    @media (max-width: 380px){
+        margin-right: 8px;
+        min-width: 82vw;
+        height: 240px;
+        background-size: cover;
+    }
+
+    @media (max-width: 300px){
+        margin-right: 5px;
+        min-width: 77vw;
+        height: 160px;
         background-size: cover;
     }
 `

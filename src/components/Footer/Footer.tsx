@@ -1,7 +1,6 @@
-import { FooterDiv, Contacts, TitleC, SpanDiv } from "./Footer.styles"
-import { FaCaretDown, FaLinkedin, FaGithub , FaInstagram} from "react-icons/fa";
+import { FooterDiv, SpanDiv } from "./Footer.styles"
+import { FaLinkedin, FaGithub , FaInstagram} from "react-icons/fa";
 import {  MdOutlineEmail } from "react-icons/md";
-import {  IoShareSocialSharp } from "react-icons/io5";
 
 
 function Footer(){

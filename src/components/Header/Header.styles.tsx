@@ -10,13 +10,6 @@ export const HeaderContainer = styled.header`
     font-family: sans-serif;
 `
 
-export const LogoContainer = styled.div`
-    margin-left: 30px;
-    padding: 20px;
-    color: #c43d3d;
-    font-family: 'Times New Roman', Times, serif;
-`
-
 export const UlStyle = styled.ul`
     color: #d4d4d492;
     display: flex;
@@ -32,7 +25,7 @@ export const UlStyle = styled.ul`
     a{
         color: #d4d4d492;
     }
-    
+
     a:hover{
         transition: 0.4s;
         color: #f3f3f3;

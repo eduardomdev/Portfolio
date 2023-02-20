@@ -102,7 +102,7 @@ function Projects() {
                 <ShowCarrousel ref={myRef}>
                     {
                         images.map(projeto => (
-                            <DivImg onClick={() => modalValue(projeto)} style={{backgroundImage: `url(${projeto.img})`}}>
+                            <DivImg key={projeto.name} onClick={() => modalValue(projeto)} style={{backgroundImage: `url(${projeto.img})`}}>
                                 <div>
                                 </div>
                             </DivImg>

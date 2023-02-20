@@ -1,5 +1,5 @@
-import { HeaderContainer, UlStyle, LogoContainer } from "./Header.styles"
-import { FaCaretDown, FaLinkedin, FaGithub , FaInstagram} from "react-icons/fa";
+import { HeaderContainer, UlStyle } from "./Header.styles"
+import { FaLinkedin, FaGithub , FaInstagram} from "react-icons/fa";
 
 function Header(){
     return(
